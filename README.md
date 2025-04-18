@@ -17,3 +17,10 @@ A lightweight web application to track weekly weather forecasts for multiple Eur
 - JavaScript (Vanilla)
 - 7Timer! API
 - Weather icons (custom set)
+
+## 🚀 How to Run
+
+1. Download the repo(Code): Click the green Code button at the top right of the repository, Select Download ZIP and extract it to your local machine.
+2. Open index.html in your browser: No frameworks, no installs — just open and go!
+
+
