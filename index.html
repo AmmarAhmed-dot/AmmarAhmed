@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <header class="text-center p-3 mt-5 text-white">
+      <h1>Check Weather</h1>
+      <p>European Weather Forecast</p>
+    </header>
+
+    <main class="my-5">
+      <div class="text-center">
+        <h2>Select a City</h2>
+        <select id="city-selector" class="form-control w-80 mx-auto my-3">
+          <option disabled selected>-- Select a City --</option>
+        </select>
+        <button class="" onclick="getWeather()">Get Forecast</button>
+      </div>
+
+      <!-- Loader -->
+      <div id="loader" class="text-center my-5" style="display: none">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+
+      <!-- Forecast Block -->
+      <div id="forecast-block" class="g-4 mt-4">
+        <!-- Cards will be dynamically generated -->
+      </div>
+    </main>
+
+    <footer class="text-center p-3 bg-light">
+      <p class="m-0">© 2024 Double A</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
